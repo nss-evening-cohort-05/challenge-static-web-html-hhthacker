@@ -1,0 +1,82 @@
+/*********** General Body *********/
+
+/*body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+*/
+
+body {
+	font-family: Helvetica, sans-serif;
+	background-color: #E8F7EE;
+}
+
+
+/*********** Title profile picture *********/
+
+h1 {
+	color: #3E4E50;
+	font-size: 5em;
+	justify-content: center;
+}
+
+img {
+	border-radius: 100%;
+	border: solid 2em #A799B7;
+}
+
+/*********** Biography and Food Links *******/
+h3 {
+	color: #663F46;
+	font-weight: 900;
+}
+
+#biography {
+
+}
+
+#foodLinks {
+
+}
+
+
+/*********** Recipes *********/
+
+.recipes {
+
+}
+
+h2 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+#biscuit {
+
+}
+
+#cinnaroll {
+
+}
+
+
+/*********** Footer *********/
+
+footer {
+
+}
+
+
+
+
+
+
+

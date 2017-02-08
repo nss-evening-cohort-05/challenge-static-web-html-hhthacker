@@ -1,24 +1,24 @@
-/*********** General Body *********/
-
-/*body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-*/
+/*********************** General Body *********/
 
 body {
 	font-family: Helvetica, sans-serif;
 	background-color: #E8F7EE;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-/*********** Title profile picture *********/
+
+/*************** Title profile picture *********/
 
 h1 {
 	color: #3E4E50;
-	font-size: 5em;
+	font-size: 3.25em;
 	justify-content: center;
+	font-weight: 900;
 }
 
 img {
@@ -26,57 +26,62 @@ img {
 	border: solid 2em #A799B7;
 }
 
-/*********** Biography and Food Links *******/
+
+/**************** Biography and Links *******/
+
 h3 {
 	color: #663F46;
 	font-weight: 900;
+	font-size: 1.5em;
 }
 
-#biography {
-
+a:link {
+	font-weight: bold;
+	text-decoration: none;
+	color: #3E4E50;
+	justify-content: center;
 }
 
-#foodLinks {
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: #A799B7;
+}
 
+a {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
 }
 
 
-/*********** Recipes *********/
+/****************** Recipes *********/
 
-.recipes {
-
-}
-
-h2 {
-
-}
-
-h4 {
-
-}
 
 p {
+	width: 600px;
+	margin: auto;
+	text-align: center;
+}
+
+p.recipes {
+	font-style: italic;
+	padding-bottom: 50px;
+}
+
+.headline {
+	text-align: center;
+}
+
+.boxy {
+	border: solid 5px #A799B7;
+	width: 600px;
+	margin: auto;
 
 }
 
-#biscuit {
-
-}
-
-#cinnaroll {
-
-}
-
-
-/*********** Footer *********/
+/**************** Footer *********/
 
 footer {
-
+	text-align: center;
+	padding-top: 50px;
 }
-
-
-
-
-
-
-
